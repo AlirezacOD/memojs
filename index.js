@@ -1,4 +1,4 @@
-import express from 'express'
+    import express from 'express'
 import router from './router/router.js'
 import mongoose from 'mongoose'
 
@@ -10,5 +10,5 @@ app.use(router)
 app.listen(3000, () => {
     console.log('server is started on port 3000')
 })
-id      
+id              
     
