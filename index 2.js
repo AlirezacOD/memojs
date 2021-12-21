@@ -21,7 +21,7 @@ const db = [{
     family: 'roshan',
     age: '15',
     city: 'rasht'
-}]
+}]      
 router.get('/findByfamily/:family', (req, res) => {
     const { family } = req.params
     const place = []
