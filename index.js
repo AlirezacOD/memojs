@@ -1,7 +1,7 @@
     import express from 'express'
 import router from './router/router.js'
 import mongoose from 'mongoose'
-
+        
 const app = express()
 app.use(express.json({ limit: '10mb', extended: true }))
 app.use(express.urlencoded({ limit: '', extended: true }))
