@@ -1,7 +1,7 @@
 import express from 'express'
 const router = express.Router()
 const db = [{
-    id: 1,
+    id: 1,  
     name: 'Alireza',
     family: 'hosseini',
     age: '15',
